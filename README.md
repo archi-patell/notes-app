@@ -2,11 +2,22 @@
 
 A modern, responsive note-taking web application built with vanilla JavaScript and localStorage for persistent data management.
 
-## Overview
+## 🎯 Overview
 
 Notes App is a lightweight, single-page application that allows users to create, manage, and organize notes with categories and pinning functionality. All data is stored locally in the browser, ensuring privacy and offline access. The app features a clean, intuitive interface with dark mode support and real-time search capabilities.
 
-## Features
+## 🖼️ Application Screenshots
+
+<p align="center">
+  <img src="images/note-page-dark-mode.png" alt="Dark Mode Preview" width="48%">
+  <img src="images/note-page-light-mode.png" alt="Light Mode Preview" width="48%">
+</p>
+
+<p align="center">
+  <em>Dark Mode</em> | <em>Light Mode</em>
+</p>
+
+## ✨ Features
 
 * **Create & Manage Notes** – Add notes with title, content, and category
 * **Pin Important Notes** – Mark notes as pinned; they appear first in the grid
@@ -18,7 +29,7 @@ Notes App is a lightweight, single-page application that allows users to create,
 * **Edit & Delete** – Update note content or remove notes with confirmation dialogs
 * **Timestamp Tracking** – Automatic creation and update timestamps for each note
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 * **Frontend:** HTML5, Vanilla JavaScript (ES6 Modules)
 * **Styling:** CSS3 with custom design system (CSS variables)
@@ -26,13 +37,13 @@ Notes App is a lightweight, single-page application that allows users to create,
 * **Dialogs:** SweetAlert2
 * **Storage:** Browser LocalStorage
 
-## How to Run
+## 🚀 How to Run
 
 1. Clone the repository or download the project files
 2. Open `index.html` in your web browser
 3. Start creating notes immediately – no installation or setup required
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 ├── index.html          # Main HTML file
@@ -44,18 +55,7 @@ Notes App is a lightweight, single-page application that allows users to create,
 │   ├── ui.js           # UI rendering
 │   ├── utils.js        # Utility functions
 │   ├── categories.js   # Category management
-│   └── storage.js      # Storage utilities
 └── readme.md
 ```
 
-## Live Demo
-
-[Add your GitHub Pages link or hosted URL here]
-
-## GitHub Repository
-
-[Add your repository link here]
-
 ---
-
-**Perfect for:** Learning vanilla JavaScript, ES6 modules, DOM manipulation, and browser storage APIs.
